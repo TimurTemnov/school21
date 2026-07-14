@@ -119,7 +119,7 @@ class Research():
             logging.info("Writing a report to file")
 
     def send_message_to_telegram_channel(self, success: bool):
-        TOKEN = '8100819426:AAFxD6MWpGEN3g__UNSijVqaW01FmvTDMyQ'
+        TOKEN = ''
         CHAT_ID = '897214281'
 
         message = "The report has been successfully created" if success else "The report hasn't been created due to an error"
